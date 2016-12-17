@@ -1,5 +1,5 @@
 .section __TEXT, __text
-.global start
+.globl start
 
 start:
 	movl $0x2000001, %eax
